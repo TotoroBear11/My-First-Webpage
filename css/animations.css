@@ -1,0 +1,36 @@
+.fade-in{
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+@keyframes fade-in-animation{
+
+    from {
+        opacity: 0;
+        transform: rotate(280deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+.blink-colour {
+    animation-name: blink-colour-animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes blink-colour-animation{
+    0% {
+        color: #800000
+    }
+    40% {
+        color: #00FF7F
+    }
+    80% {
+        color: #FF69B4
+    }
+    100% {
+        color: #FFD700
+    }
+    
+}
